@@ -1,0 +1,8 @@
+﻿[Run Information]
+Version=CSPro 7.3
+AppType=Entry
+
+[Files]
+Application=.\GIMPA FISH RETAILERS.ent
+InputData=.\GIMPA FISH RETAILERS.csdb
+Paradata=.\GIMPA FISH RETAILERS.cslog

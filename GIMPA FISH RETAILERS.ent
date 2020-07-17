@@ -1,0 +1,30 @@
+﻿[CSPro Application]
+Version=CSPro 7.3
+Label=FISHERY_FMF_FMF_FMF
+Name=FISHERY_FMF_FMF_FMF
+AppType=DataEntry
+OperatorID=No
+CAPI=Yes
+CAPIFont1=-016 0000 0000 0000 0400 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+CAPIFont2=-016 0000 0000 0000 0400 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+CAPIFont1Color=0
+CAPIFont2Color=16711680
+CreateListing=No
+CreateLog=No
+ShowErrorMessageNumbers=No
+ComboBoxShowOnlyDiscreteValues=Yes
+ParadataCollection=AllEvents
+ParadataDeviceStateMinutes=5
+[AppCode]
+File=.\GIMPA FISH RETAILERS.ent.apc
+[Message]
+File=.\GIMPA FISH RETAILERS.ent.mgf
+[Help]
+File=.\GIMPA FISH RETAILERS.ent.qsf
+[Forms]
+File=.\GIMPA FISH RETAILERS.fmf
+[Dictionary Types]
+Dict-Type=.\GIMPA FISH RETAILERS.dcf,Input,.\GIMPA FISH RETAILERS.fmf
+[Sync]
+Server=https://cdamaa-data.ucc.edu.gh/api
+Direction=Put

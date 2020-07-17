@@ -1,0 +1,3671 @@
+﻿[Dictionary]
+Version=CSPro 7.3
+Label=fishery
+Name=FISHERY_DICT
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=No
+DecimalChar=Yes
+
+[Level]
+Label=fishery Level
+Name=FISHERY_LEVEL
+
+[IdItems]
+
+[Item]
+Label=ID
+Name=ID
+Start=2
+Len=6
+ZeroFill=Yes
+
+[Record]
+Label=CONSENT
+Name=CONSENT1
+RecordTypeValue='V'
+RecordLen=10
+
+[Item]
+Label=Consent
+Name=CONSENT
+Start=8
+Len=3
+DataType=Alpha
+
+[ValueSet]
+Label=Consent
+Name=CONSENT_VS1
+Value='YES';YES
+Value='NO ';NO
+
+[Record]
+Label=INTRO
+Name=INTRO
+RecordTypeValue='1'
+RecordLen=96
+
+[Item]
+Label=AREA CODES
+Name=AREA_CODES
+Start=8
+Len=4
+ZeroFill=Yes
+
+[ValueSet]
+Label=AREA CODES
+Name=AREA_CODES_VS1
+Value=201;APAM
+Value=202;CAPE COAST
+Value=203;ELMINA
+Value=101;AXIM
+Value=301;ACCRA
+
+[Item]
+Label=HOUSEHOLD ID
+Name=HOUSEHOLD_ID
+Start=12
+Len=15
+DataType=Alpha
+
+[Item]
+Label=INTERVIWER ID
+Name=INTERVIWER_ID
+Start=27
+Len=2
+ZeroFill=Yes
+
+[Item]
+Label=DATE
+Name=DATE
+Start=29
+Len=10
+DataType=Alpha
+
+[Item]
+Label=STARTING TIME
+Name=STARTING_TIME
+Start=39
+Len=8
+DataType=Alpha
+
+[Item]
+Label=RESPONDENT CONTACT
+Name=RESPONDENT_CONTACT
+Start=47
+Len=10
+
+[Item]
+Label=GPS LATITUDE
+Name=GPS_LATITUDE
+Start=57
+Len=10
+DataType=Alpha
+
+[Item]
+Label=GPS LONGITUDE
+Name=GPS_LONGITUDE
+Start=67
+Len=15
+DataType=Alpha
+
+[Item]
+Label=GPS ALTITUDE
+Name=GPS_ALTITUDE
+Start=82
+Len=15
+DataType=Alpha
+
+[Record]
+Label=SECTION 1 PART 1
+Name=SECTION_1_PART_1
+RecordTypeValue='I'
+MaxRecords=10
+RecordLen=123
+
+[Item]
+Label=Q1.1
+Name=Q1_1
+Start=8
+Len=11
+
+[Item]
+Label=Q1.1B
+Name=Q1_1B
+Start=19
+Len=50
+DataType=Alpha
+
+[Item]
+Label=Q1.2(SEX)
+Name=Q1_2
+Start=69
+Len=1
+
+[ValueSet]
+Label=Q1.2(SEX)
+Name=Q1_2_VS1
+Value=1;MALE
+Value=2;FEMALE
+
+[Item]
+Label=Q1.4(AGE)
+Name=Q1_4_AGE
+Start=70
+Len=3
+
+[Item]
+Label=Q1.3(HOUSEHOLD RELATIONSHIP)
+Name=Q1_3_HOUSEHOLD_RELATIONSHIP
+Start=73
+Len=2
+
+[ValueSet]
+Label=Q1.3(HOUSEHOLD RELATIONSHIP)
+Name=Q1_3_HOUSEHOLD_RELATIONSHIP_VS1
+Value=1;HEAD
+Value=2;SPOUSE(WIFE/HUSBAND)
+Value=3;CHILD
+Value=4;GRANDCHILD
+Value=5;PARENT / PARENT IN-LAW
+Value=6;SON/ DAUGHTER IN-LAW
+Value=7;OTHER RELATIVE
+Value=8;ADOPTED/ FORSTER/ STEP CHILD
+Value=9;HOUSEHOLD HELP
+Value=10;NON-RALATIVE
+
+[Item]
+Label=Q1.5(MARITAL STATUS)
+Name=Q1_5_MARITAL_STATUS
+Start=75
+Len=1
+
+[ValueSet]
+Label=Q1.5(MARITAL STATUS)
+Name=Q1_5_MARITAL_STATUS_VS1
+Value=1;MARRIED
+Value=2;CONSENSUAL UNION
+Value=3;SEPARATED
+Value=4;DIVORCED
+Value=5;WIDOWED
+Value=6;NEVER MARRIED
+
+[Item]
+Label=Q1.6(YEARS OF EDUCATION)
+Name=Q1_6_EDUCATION
+Start=76
+Len=2
+
+[Item]
+Label=Q1.7(REGION)
+Name=Q1_7_REGION
+Start=78
+Len=2
+
+[ValueSet]
+Label=Q1.7(REGION)
+Name=Q1_7_REGION_VS1
+Value=1;WERTERN
+Value=2;CENTRAL
+Value=3;GT ACCRA
+Value=4;VOLTA
+Value=5;EASTERN
+Value=6;ASHANTI
+Value=7;BONO
+Value=8;NORTHEN
+Value=9;UPPER EAST
+Value=10;UPPER WEST
+Value=11;SAVANNA
+Value=12;NORTH EAST
+Value=13;OTI
+Value=14;AHAFO
+Value=15;WESTERN NORTH
+Value=16;BONO EAST
+Value=17;NOT GHANAIAN
+
+[Item]
+Label=Q1.8(OCCUPATION)
+Name=Q1_8_OCCUPATION
+Start=80
+Len=40
+DataType=Alpha
+
+[Item]
+Label=Q1.9(ETHNIC GROUP)
+Name=Q1_9_ETHNIC_GROUP
+Start=120
+Len=1
+
+[ValueSet]
+Label=Q1.9(ETHNIC GROUP)
+Name=Q1_9_ETHNIC_GROUP_VS1
+Value=1;AKAN
+Value=2;EWE
+Value=3;GA/ ADANGBE
+Value=4;MOLE DAGBANI
+Value=5;GURMA
+Value=6;GRUSI
+Value=7;GUAN
+Value=8;MANDE
+Value=9;OTHER
+
+[Item]
+Label=Q1.10(YEARS IN COMMUNITY)
+Name=Q1_10_YEARS_IN_COMMUNITY
+Start=121
+Len=3
+
+[Record]
+Label=SECTION 2
+Name=SECTION_2
+RecordTypeValue='3'
+MaxRecords=9
+RecordLen=28
+
+[Item]
+Label=Q2.1 (HOUSEHOLD ROASTER ID)
+Name=HOUSEHOLD_ROASTER_ID1
+Start=8
+Len=11
+
+[Item]
+Label=Q2.2 (PUBLIC OR PRIVATE SCHOOL)
+Name=Q2_2_PUBLIC_OR_PRIVATE_SCHOOL
+Start=19
+Len=1
+
+[ValueSet]
+Label=Q2.2 (PUBLIC OR PRIVATE SCHOOL)
+Name=Q2_2_PUBLIC_OR_PRIVATE_SCHOOL_VS1
+Value=1;PRIVATE
+Value=0;PUBLIC
+
+[Item]
+Label=Q2.3 (WEIGHT IN KG)
+Name=Q2_3_WEIGHT_IN_KG
+Start=20
+Len=3
+
+[Item]
+Label=Q2.4 (HEIGHT IN CM)
+Name=Q2_4_HEIGHT_IN_CM
+Start=23
+Len=3
+
+[Item]
+Label=Q2.5 (MID UPPER CIRCUMFERENCE)
+Name=Q2_5_MID_UPPER_CIRCUMFERENCE
+Start=26
+Len=3
+
+[Record]
+Label=SECTION 1 PART 2
+Name=SECTION_1_PART_2
+RecordTypeValue='2'
+Required=No
+RecordLen=66
+
+[Item]
+Label=Q2.0 (TOILET TYPE)
+Name=Q2_0_TOILET_TYPE
+Start=8
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=Q2.0 (TOILET TYPE)
+Name=Q2_0_TOILET_TYPE_VS1
+Value='A';FLUSH / POUR FLUSH
+Value='B';PIT LATRINE
+Value='C';BUCKET / PAN
+Value='D';COMPOSTING TOILET
+Value='E';NO FACILITY / BUSH / FIELD
+Value='F';OTHER
+
+[Item]
+Label=Q3A (RADIO)
+Name=Q3A_RADIO
+Start=9
+Len=1
+
+[ValueSet]
+Label=Q3A (RADIO)
+Name=Q3A_RADIO_VS1
+Value=1;YES
+Value=0;NO
+
+[Item]
+Label=Q3B (COMPUTER)
+Name=Q3B_COMPUTER
+Start=10
+Len=1
+
+[ValueSet]
+Label=Q3B (COMPUTER)
+Name=Q3B_COMPUTER_VS1
+Value=1;YES
+Value=0;NO
+
+[Item]
+Label=Q3C (TELEVISION)
+Name=Q3C_TELEVISION
+Start=11
+Len=1
+
+[ValueSet]
+Label=Q3C (TELEVISION)
+Name=Q3C_TELEVISION_VS1
+Value=1;YES
+Value=0;NO
+
+[Item]
+Label=Q3D (SMART TELEPHONE)
+Name=Q3D_SMART_TELEPHONE
+Start=12
+Len=1
+
+[ValueSet]
+Label=Q3D (SMART TELEPHONE)
+Name=Q3D_SMART_TELEPHONE_VS1
+Value=1;YES
+Value=0;NO
+
+[Item]
+Label=Q3E (ANALOGUE TELEPHONE)
+Name=Q3E_ANALOGUE_TELEPHONE
+Start=13
+Len=1
+
+[ValueSet]
+Label=Q3E (ANALOGUE TELEPHONE)
+Name=Q3E_ANALOGUE_TELEPHONE_VS1
+Value=1;YES
+Value=0;NO
+
+[Item]
+Label=Q3F (REFERIGERATOR)
+Name=Q3F_REFERIGERATOR
+Start=14
+Len=1
+
+[ValueSet]
+Label=Q3F (REFERIGERATOR)
+Name=Q3F_REFERIGERATOR_VS1
+Value=1;YES
+Value=0;NO
+
+[Item]
+Label=Q3G (WASHING MACHINE)
+Name=Q3G_WASHING_MACHINE
+Start=15
+Len=1
+
+[ValueSet]
+Label=Q3G (WASHING MACHINE)
+Name=Q3G_WASHING_MACHINE_VS1
+Value=1;YES
+Value=0;NO
+
+[Item]
+Label=Q3H (FREEZER)
+Name=Q3H_FREEZER
+Start=16
+Len=1
+
+[ValueSet]
+Label=Q3H (FREEZER)
+Name=Q3H_FREEZER_VS1
+Value=1;YES
+Value=0;NO
+
+[Item]
+Label=Q3I (MICROWAVE)
+Name=Q3I_MICROWAVE
+Start=17
+Len=1
+
+[ValueSet]
+Label=Q3I (MICROWAVE)
+Name=Q3I_MICROWAVE_VS1
+Value=1;YES
+Value=0;NO
+
+[Item]
+Label=Q3J (AIRCONDITIONER)
+Name=Q3J_AIRCONDITIONER
+Start=18
+Len=1
+
+[ValueSet]
+Label=Q3J (AIRCONDITIONER)
+Name=Q3J_AIRCONDITIONER_VS1
+Value=1;YES
+Value=0;NO
+
+[Item]
+Label=Q3K (FAN)
+Name=Q3K_FAN
+Start=19
+Len=1
+
+[ValueSet]
+Label=Q3K (FAN)
+Name=Q3K_FAN_VS1
+Value=1;YES
+Value=0;NO
+
+[Item]
+Label=Q3J (ELECTRIC GENERATORS)
+Name=Q3J_ELECTRIC_GENERATORS
+Start=20
+Len=1
+
+[ValueSet]
+Label=Q3J (ELECTRIC GENERATORS)
+Name=Q3J_ELECTRIC_GENERATORS_VS1
+Value=1;YES
+Value=0;NO
+
+[Item]
+Label=Q3M (VIDEO DECK OR DVD)
+Name=Q3M_VIDEO_DECK_OR_DVD
+Start=21
+Len=1
+
+[ValueSet]
+Label=Q3M (VIDEO DECK OR DVD)
+Name=Q3M_VIDEO_DECK_OR_DVD_VS1
+Value=1;YES
+Value=0;NO
+
+[Item]
+Label=Q3N (SEWING MACHINE)
+Name=Q3N_SEWING_MACHINE
+Start=22
+Len=1
+
+[ValueSet]
+Label=Q3N (SEWING MACHINE)
+Name=Q3N_SEWING_MACHINE_VS1
+Value=1;YES
+Value=0;NO
+
+[Item]
+Label=Q3O (BED)
+Name=Q3O_BED
+Start=23
+Len=1
+
+[ValueSet]
+Label=Q3O (BED)
+Name=Q3O_BED_VS1
+Value=1;YES
+Value=0;NO
+
+[Item]
+Label=Q3P (TABLE)
+Name=Q3P_TABLE
+Start=24
+Len=1
+
+[ValueSet]
+Label=Q3P (TABLE)
+Name=Q3P_TABLE_VS1
+Value=1;YES
+Value=0;NO
+
+[Item]
+Label=Q3Q (CABINET OR CUPBOARD)
+Name=Q3Q_CABINET_OR_CUPBOARD
+Start=25
+Len=1
+
+[ValueSet]
+Label=Q3Q (CABINET OR CUPBOARD)
+Name=Q3Q_CABINET_OR_CUPBOARD_VS1
+Value=1;YES
+Value=0;NO
+
+[Item]
+Label=Q3R (BICYCLE)
+Name=Q3R_BICYCLE
+Start=26
+Len=1
+
+[ValueSet]
+Label=Q3R (BICYCLE)
+Name=Q3R_BICYCLE_VS1
+Value=1;YES
+Value=0;NO
+
+[Item]
+Label=Q3S (MOTORBICYCLE)
+Name=Q3S_MOTORBICYCLE
+Start=27
+Len=1
+
+[ValueSet]
+Label=Q3S (MOTORBICYCLE)
+Name=Q3S_MOTORBICYCLE_VS1
+Value=1;YES
+Value=0;NO
+
+[Item]
+Label=Q3T (MOTOR VEHICLE)
+Name=Q3T_MOTOR_VEHICLE
+Start=28
+Len=1
+
+[ValueSet]
+Label=Q3T (MOTOR VEHICLE)
+Name=Q3T_MOTOR_VEHICLE_VS1
+Value=1;YES
+Value=0;NO
+
+[Item]
+Label=Q4 (RELIGION)
+Name=Q4
+Start=29
+Len=30
+DataType=Alpha
+
+[ValueSet]
+Label=Q4 (RELIGION)
+Name=Q4_VS1
+Value='A                             ';CHRISTIAN
+Value='B                             ';MUSLIM
+Value='C                             ';TRADITIONAL
+Value='D                             ';ANY OTHER
+
+[Item]
+Label=Q5 (RELIGIOUS LEVEL)
+Name=Q5_RELIGIOUS_LEVEL
+Start=59
+Len=3
+
+[Item]
+Label=Q6 (AVERAGE MONTHLY ECG BILL)
+Name=Q6_AVERAGE_MONTHLY_ECG_BILL1
+Start=62
+Len=4
+
+[Item]
+Label=Q7 (PREPAID)
+Name=Q7_PREPAID
+Start=66
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=Q7 (PREPAID)
+Name=Q7_PREPAID_VS1
+Value='A';PREPAID
+Value='B';POST PAID
+Value='C';BOTH
+Value='D';NONE
+
+[Record]
+Label=SECTION 3A
+Name=SECTION_3A
+RecordTypeValue='4'
+RecordLen=19
+
+[Item]
+Label=Q3A.1 (CEREALS )
+Name=Q3A_1_CEREALS
+Start=8
+Len=1
+
+[ValueSet]
+Label=Q3A.1 (CEREALS )
+Name=Q3A_1_CEREALS_VS1
+Value=1;YES
+Value=0;NO
+
+[Item]
+Label=Q3A.2 (WHITE TUBERS)
+Name=Q3A_2_WHITE_TUBERS
+Start=9
+Len=1
+
+[ValueSet]
+Label=Q3A.2 (WHITE TUBERS)
+Name=Q3A_2_WHITE_TUBERS_VS1
+Value=1;YES
+Value=0;NO
+
+[Item]
+Label=Q3A.3 (VEGETABLES)
+Name=Q3A_3_VEGETABLES
+Start=10
+Len=1
+
+[ValueSet]
+Label=Q3A.3 (VEGETABLES)
+Name=Q3A_3_VEGETABLES_VS1
+Value=1;YES
+Value=0;NO
+
+[Item]
+Label=Q3A.4 (FRUITS)
+Name=Q3A_4_FRUITS
+Start=11
+Len=1
+
+[ValueSet]
+Label=Q3A.4 (FRUITS)
+Name=Q3A_4_FRUITS_VS1
+Value=1;YES
+Value=0;NO
+
+[Item]
+Label=Q3A.5 (MEAT)
+Name=Q3A_5_MEAT
+Start=12
+Len=1
+
+[ValueSet]
+Label=Q3A.5 (MEAT)
+Name=Q3A_5_MEAT_VS1
+Value=1;YES
+Value=0;NO
+
+[Item]
+Label=Q3A.6 (EGGS)
+Name=Q3A_6_EGGS
+Start=13
+Len=1
+
+[ValueSet]
+Label=Q3A.6 (EGGS)
+Name=Q3A_6_EGGS_VS1
+Value=1;YES
+Value=0;NO
+
+[Item]
+Label=Q3A.7 (FISH AND SEA FOOD)
+Name=Q3A_7_FISH_AND_SEA_FOOD
+Start=14
+Len=1
+
+[ValueSet]
+Label=Q3A.7 (FISH AND SEA FOOD)
+Name=Q3A_7_FISH_AND_SEA_FOOD_VS1
+Value=1;YES
+Value=0;NO
+
+[Item]
+Label=Q3A.8 (LEGUMES, NUTS AND SEEDS)
+Name=Q3A_8_LEGUMES
+Start=15
+Len=1
+
+[ValueSet]
+Label=Q3A.8 (LEGUMES, NUTS AND SEEDS)
+Name=Q3A_8_LEGUMES_VS1
+Value=1;YES
+Value=0;NO
+
+[Item]
+Label=Q3A.9 (MILK AND MILK PRODUCT)
+Name=Q3A_9_MILK_AND_MILK_PRODUCT
+Start=16
+Len=1
+
+[ValueSet]
+Label=Q3A.9 (MILK AND MILK PRODUCT)
+Name=Q3A_9_MILK_AND_MILK_PRODUCT_VS1
+Value=1;YES
+Value=0;NO
+
+[Item]
+Label=Q3A.10 (OILS AND FAT)
+Name=Q3A_10_OILS_AND_FAT
+Start=17
+Len=1
+
+[ValueSet]
+Label=Q3A.10 (OILS AND FAT)
+Name=Q3A_10_OILS_AND_FAT_VS1
+Value=1;YES
+Value=0;NO
+
+[Item]
+Label=Q3A.11 (SWEETS)
+Name=Q3A_11_SWEETS
+Start=18
+Len=1
+
+[ValueSet]
+Label=Q3A.11 (SWEETS)
+Name=Q3A_11_SWEETS_VS1
+Value=1;YES
+Value=0;NO
+
+[Item]
+Label=Q3A.12 (SPICES, CONDIMENTS AND BEVERAGES)
+Name=Q3A_12_SPICES_CONDIMENTS_AND_BEVERAGES
+Start=19
+Len=1
+
+[ValueSet]
+Label=Q3A.12 (SPICES, CONDIMENTS AND BEVERAGES)
+Name=Q3A_12_SPICES_CONDIMENTS_AND_BEVERAGES_VS1
+Value=1;YES
+Value=0;NO
+
+[Record]
+Label=SECTION 3B
+Name=SECTION_3B
+RecordTypeValue='5'
+RecordLen=16
+
+[Item]
+Label=Q3B.1 (STARCHY STAPLE)
+Name=Q3B_1_STARCHY_STAPLE
+Start=8
+Len=1
+
+[ValueSet]
+Label=Q3B.1 (STARCHY STAPLE)
+Name=Q3B_1_STARCHY_STAPLE_VS1
+Value=1;YES
+Value=0;NO
+
+[Item]
+Label=Q3B.2 (DARK GREEN LEAFY VEGETABLES)
+Name=Q3B_2_DARK_GREEN_LEAFY_VEGETABLES
+Start=9
+Len=1
+
+[ValueSet]
+Label=Q3B.2 (DARK GREEN LEAFY VEGETABLES)
+Name=Q3B_2_DARK_GREEN_LEAFY_VEGETABLES_VS1
+Value=1;YES
+Value=0;NO
+
+[Item]
+Label=Q3B.3 (OTHER VITAMIN A RICH FRUITS AND VEGETABLES)
+Name=Q3B_3_OTHER_VITAMIN_A_RICH_FRUITS_AND_VEGETABLES
+Start=10
+Len=1
+
+[ValueSet]
+Label=Q3B.3 (OTHER VITAMIN A RICH FRUITS AND VEGETABLES)
+Name=Q3B_3_OTHER_VITAMIN_A_RICH_FRUITS_AND_VEGETABLES_VS1
+Value=1;YES
+Value=0;NO
+
+[Item]
+Label=Q3B.4 (OTHER FRUITS AND VEGETABLES)
+Name=Q3B_4_OTHER_FRUITS_AND_VEGETABLES
+Start=11
+Len=1
+
+[ValueSet]
+Label=Q3B.4 (OTHER FRUITS AND VEGETABLES)
+Name=Q3B_4_OTHER_FRUITS_AND_VEGETABLES_VS1
+Value=1;YES
+Value=0;NO
+
+[Item]
+Label=Q3B.5 (ORGAN MEAT)
+Name=Q3B_5_ORGAN_MEAT
+Start=12
+Len=1
+
+[ValueSet]
+Label=Q3B.5 (ORGAN MEAT)
+Name=Q3B_5_ORGAN_MEAT_VS1
+Value=1;YES
+Value=0;NO
+
+[Item]
+Label=Q3B.6 (MEAT AND FISH)
+Name=Q3B_6_MEAT_AND_FISH
+Start=13
+Len=1
+
+[ValueSet]
+Label=Q3B.6 (MEAT AND FISH)
+Name=Q3B_6_MEAT_AND_FISH_VS1
+Value=1;YES
+Value=0;NO
+
+[Item]
+Label=Q3B.7 (EGGS)
+Name=Q3B_7_EGGS
+Start=14
+Len=1
+
+[ValueSet]
+Label=Q3B.7 (EGGS)
+Name=Q3B_7_EGGS_VS1
+Value=1;YES
+Value=0;NO
+
+[Item]
+Label=Q3B.8 (LEGUMES, NUTS AND SEEDS)
+Name=Q3B_8_LEGUMES_NUTS_AND_SEEDS
+Start=15
+Len=1
+
+[ValueSet]
+Label=Q3B.8 (LEGUMES, NUTS AND SEEDS)
+Name=Q3B_8_LEGUMES_NUTS_AND_SEEDS_VS1
+Value=1;YES
+Value=0;NO
+
+[Item]
+Label=Q3B.9 (MILK AND MILK PRODUCTS)
+Name=Q3B_9_MILK_AND_MILK_PRODUCTS
+Start=16
+Len=1
+
+[ValueSet]
+Label=Q3B.9 (MILK AND MILK PRODUCTS)
+Name=Q3B_9_MILK_AND_MILK_PRODUCTS_VS1
+Value=1;YES
+Value=0;NO
+
+[Record]
+Label=SECTION 4A
+Name=SECTION_4A
+RecordTypeValue='6'
+RecordLen=79
+
+[Item]
+Label=Q4A.1.3 (AVERAGE PRICE PER PURCHASE_UNITS IN CEDIS)
+Name=Q4A_1_3_AVERAGE_PRICE_PER_PURCHASE_UNITS_IN_CEDI
+Start=8
+Len=6
+
+[Item]
+Label=Q4A.2.3 (AVERAGE PRICE PER PURCHASE UNITS)
+Name=Q4A_2_3_AVERAGE_PRICE_PER_PURCHASE_UNITS
+Start=14
+Len=6
+
+[Item]
+Label=Q4A.3.3 (AVERAGE PRICE PER PURCHASE UNITS)
+Name=Q4A_3_3_AVERAGE_PRICE_PER_PURCHASE_UNITS
+Start=20
+Len=6
+
+[Item]
+Label=Q4A.4.3 (AVERAGE PRICE PER PURCHASE UNITS IN CEDIS)
+Name=Q4A_4_3_AVERAGE_PRICE_PER_PURCHASE_UNITS_IN_CEDI
+Start=26
+Len=6
+
+[Item]
+Label=Q4A.5.3 (AVERAGE PRICE PER PURCHASE UNITS IN CEDIS)
+Name=Q4A_5_3_AVERAGE_PRICE_PER_PURCHASE_UNITS_IN_CEDI
+Start=32
+Len=6
+
+[Item]
+Label=Q4A.6.3 (AVERAGE PRICE PER PURCHASE UNITS IN CEDIS)
+Name=Q4A_6_3_AVERAGE_PRICE_PER_PURCHASE_UNITS_IN_CEDI
+Start=38
+Len=6
+
+[Item]
+Label=Q4A.7.3 (AVERAGE PRICE PER PURCHASE UNITS IN CEDIS)
+Name=Q4A_7_3_AVERAGE_PRICE_PER_PURCHASE_UNITS_IN_CEDI
+Start=44
+Len=6
+
+[Item]
+Label=Q4A.8.3 (AVERAGE PRICE PER PURCHASE UNITS IN CEDIS)
+Name=Q4A_8_3_AVERAGE_PRICE_PER_PURCHASE_UNITS_IN_CEDI
+Start=50
+Len=6
+
+[Item]
+Label=Q4A.9.3 (AVERAGE PRICE PER PURCHASE UNITS IN CEDIS)
+Name=Q4A_9_3_AVERAGE_PRICE_PER_PURCHASE_UNITS_IN_CEDI
+Start=56
+Len=6
+
+[Item]
+Label=Q4A.10.3 (AVERAGE PRICE PER PURCHASE UNITS IN CEDIS)
+Name=Q4A_10_3_AVERAGE_PRICE_PER_PURCHASE_UNITS_IN_CED
+Start=62
+Len=6
+
+[Item]
+Label=Q4A.11.3 (AVERAGE PRICE PER PURCHASE UNITS IN CEDIS)
+Name=Q4A_11_3_AVERAGE_PRICE_PER_PURCHASE_UNITS_IN_CED
+Start=68
+Len=6
+
+[Item]
+Label=Q4A.12.3 (AVERAGE PRICE PER PURCHASE UNITS IN CEDIS)
+Name=Q4A_12_3_AVERAGE_PRICE_PER_PURCHASE_UNITS_IN_CED
+Start=74
+Len=6
+
+[Record]
+Label=SECTION 4B
+Name=SECTION_4B
+RecordTypeValue='7'
+RecordLen=163
+
+[Item]
+Label=Q4B1 RENT
+Name=Q4_B1_RENT7
+Start=8
+Len=6
+
+[Item]
+Label=Q4B2 PERSONAL CARE SUPPLIES
+Name=Q4_B2_PERSONAL_CARE_SUPPLIES
+Start=14
+Len=6
+
+[Item]
+Label=Q4B3 CLOTHE, SHOES, BAGS
+Name=Q4_B3_CLOTHE_SHOES_BAGS
+Start=20
+Len=6
+
+[Item]
+Label=Q4B4 DETERGENT
+Name=Q4_B4_DEETERGENT
+Start=26
+Len=6
+
+[Item]
+Label=Q4B5 ELECTRICITY
+Name=Q4_B5_ELECTRICITY_WATER_GAS_FUEL
+Start=32
+Len=6
+
+[Item]
+Label=Q4B5 WATER
+Name=Q4_B5_WATER
+Start=38
+Len=6
+
+[Item]
+Label=Q4B5 LPG
+Name=Q4_B5_LPG
+Start=44
+Len=6
+
+[Item]
+Label=Q4B5 FUEL(FIREWOOD,CHARCOAL,SAWDUST)
+Name=Q4_B5_FUEL
+Start=50
+Len=6
+
+[Item]
+Label=Q4B6 ROUTINE MAINTENANCE
+Name=Q4_B6_ROUTINE_MAINTENANCE
+Start=56
+Len=6
+
+[Item]
+Label=Q4B7 HOUSEHOLD APPLIANCES
+Name=Q4_B7_HOUSEHOLD_APPLIANCES
+Start=62
+Len=6
+
+[Item]
+Label=Q4B8 OTHER NON-FOOD
+Name=Q4_B8_OTHER_NON_FOOD
+Start=68
+Len=6
+
+[Item]
+Label=Q4B10 PUBLIC TRANSPORT
+Name=Q4B10_PUBLIC_TRANSPORT
+Start=74
+Len=6
+
+[Item]
+Label=Q4B11 AIRTIME OR COMMUNICATION CHARGES
+Name=Q4B11_AIRTIME_OR_COMMUNICATION_CHARGES
+Start=80
+Len=6
+
+[Item]
+Label=Q4B12 MOBILE HANDSET
+Name=Q4B12_MOBILE_HANDSET
+Start=86
+Len=6
+
+[Item]
+Label=Q4B13 OTHER TRANSPORTATION COST
+Name=Q4B13_OTHER_TRANSPORTATION_COST
+Start=92
+Len=6
+
+[Item]
+Label=Q4B14 PRIMARY EXPENSES
+Name=Q4B14_PRIMARY_EXPENSES
+Start=98
+Len=6
+
+[Item]
+Label=Q4B15 JHS[SCHOOL FEES BOOKS]
+Name=Q4B15_JHS_SCHOOL_FEES_BOOKS
+Start=104
+Len=6
+
+[Item]
+Label=Q4B16 SHS[SCHOOL FESS BOOKS]
+Name=Q4B16_SHS_SCHOOL_FESS_BOOKS
+Start=110
+Len=6
+
+[Item]
+Label=Q4B17 TERTIARY[ ACCOMODATION TUITION]
+Name=Q4B17_TERTIARY_ACCOMODATION_TUITION
+Start=116
+Len=6
+
+[Item]
+Label=Q4B18 APPRENTICESHIP FEES
+Name=Q4B18_APPRENTICESHIP_FEES
+Start=122
+Len=6
+
+[Item]
+Label=Q4B19 MEDICATION AND CONSULTATION FEES
+Name=Q4B19_MEDICATION_AND_CONSULTATION_FEES5
+Start=128
+Len=6
+
+[Item]
+Label=Q4B20 OTHER HEALTH COST
+Name=Q4B20_OTHER_HEALTH_COST
+Start=134
+Len=6
+
+[Item]
+Label=Q4B21 CELEBRATION AND FUNERAL COST
+Name=Q4B21_CELEBRATION_AND_FUNERAL_COST
+Start=140
+Len=6
+
+[Item]
+Label=Q4B22 RECREATION AND ENTERTAINMENT
+Name=Q4B22_RECREATION_AND_ENTERTAINMENT
+Start=146
+Len=6
+
+[Item]
+Label=Q4B23 CONTRIBUTION[ EG. CHURCH]
+Name=Q4B23_CONTRIBUTION_CHURCH
+Start=152
+Len=6
+
+[Item]
+Label=Q4B24 REMITTANCES
+Name=Q4B24_REMITTANCES
+Start=158
+Len=6
+
+[Record]
+Label=SECTION 5 PART 1
+Name=SECTION_5_PART_1
+RecordTypeValue='8'
+RecordLen=16
+
+[Item]
+Label=ATTITUDE 1
+Name=ATTITUDE_1
+Start=8
+Len=1
+
+[ValueSet]
+Label=ATTITUDE 1
+Name=ATTITUDE_1_VS1
+Value=1;AGREE
+Value=2;PARTIALLY AGREE
+Value=3;DISAGREE
+
+[Item]
+Label=ATTITUDE 2
+Name=ATTITUDE_2
+Start=9
+Len=1
+
+[ValueSet]
+Label=ATTITUDE 2
+Name=ATTITUDE_2_VS1
+Value=1;AGREE
+Value=2;PARTIALLY AGREE
+Value=3;DISAGREE
+
+[Item]
+Label=ATTITUDE 3
+Name=ATTITUDE_3
+Start=10
+Len=1
+
+[ValueSet]
+Label=ATTITUDE 3
+Name=ATTITUDE_3_VS1
+Value=1;AGREE
+Value=2;PARTIALLY AGREE
+Value=3;DISAGREE
+
+[Item]
+Label=ATTITUDE 4
+Name=ATTITUDE_4
+Start=11
+Len=1
+
+[ValueSet]
+Label=ATTITUDE 4
+Name=ATTITUDE_4_VS1
+Value=1;AGREE
+Value=2;PARTIALLY AGREE
+Value=3;DISAGREE
+
+[Item]
+Label=ATTITUDE 5
+Name=ATTITUDE_5
+Start=12
+Len=1
+
+[ValueSet]
+Label=ATTITUDE 5
+Name=ATTITUDE_5_VS1
+Value=1;AGREE
+Value=2;PARTIALLY AGREE
+Value=3;DISAGREE
+
+[Item]
+Label=ATTITUDE 6
+Name=ATTITUDE_6
+Start=13
+Len=1
+
+[ValueSet]
+Label=ATTITUDE 6
+Name=ATTITUDE_6_VS1
+Value=1;AGREE
+Value=2;PARTIALLY AGREE
+Value=3;DISAGREE
+
+[Item]
+Label=ATTITUDE 7
+Name=ATTITUDE_7
+Start=14
+Len=1
+
+[ValueSet]
+Label=ATTITUDE 7
+Name=ATTITUDE_7_VS1
+Value=1;AGREE
+Value=2;PARTIALLY AGREE
+Value=3;DISAGREE
+
+[Item]
+Label=ATTITUDE 8
+Name=ATTITUDE_8
+Start=15
+Len=1
+
+[ValueSet]
+Label=ATTITUDE 8
+Name=ATTITUDE_8_VS1
+Value=1;AGREE
+Value=2;PARTIALLY AGREE
+Value=3;DISAGREE
+
+[Item]
+Label=ATTITUDE 9
+Name=ATTITUDE_9
+Start=16
+Len=1
+
+[ValueSet]
+Label=ATTITUDE 9
+Name=ATTITUDE_9_VS1
+Value=1;AGREE
+Value=2;PARTIALLY AGREE
+Value=3;DISAGREE
+
+[Record]
+Label=SECTION 5 PART 2
+Name=SECTION_5_PART_2
+RecordTypeValue='9'
+RecordLen=111
+
+[Item]
+Label=SECTION5 PART 2_10
+Name=SECTION5_PART_2_10
+Start=8
+Len=20
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION5 PART 2_10
+Name=SECTION5_PART_2_10_VS1
+Value='A                   ';RESPONDENT
+Value='B                   ';HUSBAND / PARTNER
+Value='C                   ';JOINTLY  ( WITH PARTNER)
+Value='D                   ';OTHER (SPECIFY)
+
+[Item]
+Label=SECTION5 PART 2_11
+Name=SECTION5_PART_2_11
+Start=28
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION5 PART 2_11
+Name=SECTION5_PART_2_11_VS1
+Value='A';MORE THAN HIM
+Value='B';LESS THAN HIM
+Value='C';ABOUT THE SAME
+Value='D';HUSBAND / PARTNER HAS NO EARNINGS
+Value='E';DON'T KNOW
+
+[Item]
+Label=SECTION5 PART 2_12
+Name=SECTION5_PART_2_12
+Start=29
+Len=20
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION5 PART 2_12
+Name=SECTION5_PART_2_12_VS1
+Value='A                   ';RESPONDENT
+Value='B                   ';HUSBAND / PARTNER
+Value='C                   ';JOINTLY  ( WITH PARTNER)
+Value='D                   ';OTHER (SPECIFY)
+
+[Item]
+Label=SECTION5 PART 2_13
+Name=SECTION5_PART_2_13
+Start=49
+Len=20
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION5 PART 2_13
+Name=SECTION5_PART_2_13_VS1
+Value='A                   ';RESPONDENT
+Value='B                   ';HUSBAND / PARTNER
+Value='C                   ';JOINTLY  ( WITH PARTNER)
+Value='D                   ';OTHER (SPECIFY)
+
+[Item]
+Label=SECTION5 PART 2_14
+Name=SECTION5_PART_2_14
+Start=69
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION5 PART 2_14
+Name=SECTION5_PART_2_14_VS1
+Value='A';NOT AT ALL
+Value='B';SMALL EXTENT
+Value='C';SOMEWHAT EXTENT
+Value='D';HIGH EXTENT
+Value='E';VERY HIGH EXTENT
+
+[Item]
+Label=SECTION5 PART 2_15
+Name=SECTION5_PART_2_15
+Start=70
+Len=20
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION5 PART 2_15
+Name=SECTION5_PART_2_15_VS1
+Value='A                   ';RESPONDENT
+Value='B                   ';HUSBAND / PARTNER
+Value='C                   ';JOINTLY  ( WITH PARTNER)
+Value='D                   ';OTHER (SPECIFY)
+
+[Item]
+Label=SECTION5 PART 2_16
+Name=SECTION5_PART_2_16
+Start=90
+Len=20
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION5 PART 2_16
+Name=SECTION5_PART_2_16_VS1
+Value='A                   ';RESPONDENT
+Value='B                   ';HUSBAND / PARTNER
+Value='C                   ';JOINTLY  ( WITH PARTNER)
+Value='D                   ';OTHER (SPECIFY)
+
+[Item]
+Label=SECTION5 PART 2_17
+Name=SECTION5_PART_2_17
+Start=110
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION5 PART 2_17
+Name=SECTION5_PART_2_17_VS1
+Value='A';ALONE ONLY
+Value='B';JOINTLY ONLY
+Value='C';BOTH ALONE AND JOINTLY
+Value='D';SOMEONE ELSE
+
+[Item]
+Label=SECTION5 PART 2_18
+Name=SECTION5_PART_2_18
+Start=111
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION5 PART 2_18
+Name=SECTION5_PART_2_18_VS1
+Value='A';ALONE ONLY
+Value='B';JOINTLY ONLY
+Value='C';BOTH ALONE AND JOINTLY
+Value='D';SOMEONE ELSE
+
+[Record]
+Label=SECTION 6
+Name=SECTION_6
+RecordTypeValue='A'
+RecordLen=15
+
+[Item]
+Label=SECTION 6 Q1
+Name=SECTION_6_Q_1
+Start=8
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 6 Q1
+Name=SECTION_6_Q_1_VS1
+Value=1;YES
+Value=0;NO
+
+[Item]
+Label=SECTION 6 Q2
+Name=SECTION_6_Q_2
+Start=9
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 6 Q2
+Name=SECTION_6_Q_2_VS1
+Value=1;YES
+Value=0;NO
+
+[Item]
+Label=SECTION 6 Q3
+Name=SECTION_6_Q_3
+Start=10
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 6 Q3
+Name=SECTION_6_Q_3_VS1
+Value=1;YES
+Value=0;NO
+
+[Item]
+Label=SECTION 6 Q4
+Name=SECTION_6_Q_4
+Start=11
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 6 Q4
+Name=SECTION_6_Q_4_VS1
+Value=1;YES
+Value=0;NO
+
+[Item]
+Label=SECTION 6 Q5
+Name=SECTION_6_Q_5
+Start=12
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 6 Q5
+Name=SECTION_6_Q_5_VS1
+Value=1;YES
+Value=0;NO
+
+[Item]
+Label=SECTION 6 Q6
+Name=SECTION_6_Q_6
+Start=13
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 6 Q6
+Name=SECTION_6_Q_6_VS1
+Value=1;YES
+Value=0;NO
+
+[Item]
+Label=SECTION 6 Q7
+Name=SECTION_6_Q_7
+Start=14
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 6 Q7
+Name=SECTION_6_Q_7_VS1
+Value=1;YES
+Value=0;NO
+
+[Item]
+Label=SECTION 6 Q8
+Name=SECTION_6_Q_8
+Start=15
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 6 Q8
+Name=SECTION_6_Q_8_VS1
+Value=1;YES
+Value=0;NO
+
+[Record]
+Label=SECTION 7 PART 1
+Name=SECTION_7_PART_1
+RecordTypeValue='C'
+RecordLen=82
+
+[Item]
+Label=SECTION 7 Q1
+Name=SECTION_7_Q_1
+Start=8
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 7 Q1
+Name=SECTION_7_Q_1_VS1
+Value='A';YES
+Value='B';NO
+
+[Item]
+Label=SECTION 7 Q2
+Name=SECTION_7_Q_2
+Start=9
+Len=30
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 7 Q2
+Name=SECTION_7_Q_2_VS1
+Value='A                             ';QUEEN MOTHER / CHIEF
+Value='B                             ';CHURCH LEADER
+Value='C                             ';ASSEMMPLY MAN / WOAN OR UNIT COMMITTEE MEMBER
+Value='D                             ';OTHER (SPECIFY)
+
+[Item]
+Label=SECTION 7 Q3
+Name=SECTION_7_Q_3
+Start=39
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 7 Q3
+Name=SECTION_7_Q_3_VS1
+Value='A';YES
+Value='B';NO
+
+[Item]
+Label=SECTION 7 Q4
+Name=SECTION_7_Q_4
+Start=40
+Len=20
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 7 Q4
+Name=SECTION_7_Q_4_VS1
+Value='A                   ';NDC
+Value='B                   ';NPP
+Value='C                   ';OTHER (SPECIFY)
+
+[Item]
+Label=SECTION 7 Q5
+Name=SECTION_7_Q_5
+Start=60
+Len=20
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 7 Q5
+Name=SECTION_7_Q_5_VS1
+Value='D                   ';NDC
+Value='E                   ';NPP
+Value='F                   ';OTHER (SPECIFY)
+
+[Item]
+Label=SECTION 7 Q6
+Name=SECTION_7_Q_6
+Start=80
+Len=2
+
+[Item]
+Label=SECTION 7 Q7
+Name=SECTION_7_Q_7
+Start=82
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 7 Q7
+Name=SECTION_7_Q_7_VS1
+Value='A';YES
+Value='B';NO
+
+[Record]
+Label=SECTION 7 PART 2
+Name=SECTION_7_PART_2
+RecordTypeValue='D'
+RecordLen=115
+
+[Item]
+Label=SELF ACTIVITY
+Name=SELF_ACTIVITY
+Start=8
+Len=30
+DataType=Alpha
+
+[Item]
+Label=SELF AVERAGE MONTH INCOME
+Name=SELF_AVERAGE_MONTH_INCOME
+Start=38
+Len=6
+
+[Item]
+Label=SPOUSE ACTIVITY
+Name=SPOUSE_ACTIVITY
+Start=44
+Len=30
+DataType=Alpha
+
+[Item]
+Label=SPOUSE AVERAGE MONTH INCOME
+Name=SPOUSE_INCOME
+Start=74
+Len=6
+
+[Item]
+Label=OTHER ACTIVITY
+Name=OTHER_ACTIVITY
+Start=80
+Len=30
+DataType=Alpha
+
+[Item]
+Label=OTHER AVERAGE MONTH INCOME
+Name=OTHER_INCOME
+Start=110
+Len=6
+
+[Record]
+Label=SECTION 7 PART 2B
+Name=SECTION_7_PART_2B
+RecordTypeValue='W'
+MaxRecords=10
+RecordLen=44
+
+[Item]
+Label=CHILDREN
+Name=CHILDREN
+Start=8
+Len=1
+
+[ValueSet]
+Label=CHILDREN
+Name=CHILDREN_VS1
+Value=1;SON(s)
+Value=2;DAUGHTER(s)
+Value=3;NEPHEW(s)
+Value=4;NIECE(s)
+Value=5;NO CHILD
+
+[Item]
+Label=CHILD ACTIVITY
+Name=CHILD_ACTIVITY
+Start=9
+Len=30
+DataType=Alpha
+
+[Item]
+Label=CHILD AVERAGE MONTH INCOME
+Name=CHILD_AVERAGE_MONTH_INCOME
+Start=39
+Len=6
+
+[Record]
+Label=SECTION 8 PART 1
+Name=SECTION_8_PART_1
+RecordTypeValue='E'
+RecordLen=26
+
+[Item]
+Label=Q1
+Name=Q1
+Start=8
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=Q1
+Name=Q1_VS1
+Value='A';YES
+Value='B';NO
+
+[Item]
+Label=Q2
+Name=Q2
+Start=9
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=Q2
+Name=Q2_VS1
+Value='A';CATCH HAS DECLINED
+Value='B';CATCH HAS INCREASED
+Value='C';THERE IS NO CHANGE
+
+[Item]
+Label=Q3
+Name=Q3
+Start=10
+Len=7
+
+[Item]
+Label=Q4
+Name=Q41
+Start=17
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=Q4
+Name=Q41_VS1
+Value='A';OPERATES ALONE
+Value='B';OPERATES JOINTLY
+Value='C';WORKS FOR SOMEONE
+
+[Item]
+Label=Q5
+Name=Q5
+Start=18
+Len=3
+
+[Item]
+Label=Q6
+Name=Q6
+Start=21
+Len=6
+
+[Record]
+Label=SECTION 8 PART 2
+Name=SECTION_8_PART_2
+RecordTypeValue='F'
+RecordLen=271
+
+[Item]
+Label=LAST MAJOR GOOD QUANTITY
+Name=LAST_MAJOR_GOOD_QUANTITY
+Start=8
+Len=3
+
+[Item]
+Label=LAST MAJOR GOOD UNIT
+Name=LAST_MAJOR_UNIT
+Start=11
+Len=20
+DataType=Alpha
+
+[ValueSet]
+Label=LAST MAJOR GOOD UNIT
+Name=LAST_MAJOR_UNIT_VS1
+Value='1                   ';BLUE BAND
+Value='2                   ';PAN
+Value='3                   ';PLASTIC CONTAINER
+Value='4                   ';CRATE
+Value='5                   ';ANY OTHER (SPECIFY)
+
+[Item]
+Label=LAST MAJOR GOOD VALUE
+Name=LAST_MAJOR_GOOD_VALUE
+Start=31
+Len=6
+
+[Item]
+Label=LAST MAJOR BAD QUANTITY
+Name=LAST_MAJOR_BAD_QUANTITY
+Start=37
+Len=3
+
+[Item]
+Label=LAST MAJOR BAD UNIT
+Name=LAST_MAJOR_BAD_UNIT1
+Start=40
+Len=20
+DataType=Alpha
+
+[ValueSet]
+Label=LAST MAJOR BAD UNIT
+Name=LAST_MAJOR_BAD_UNIT1_VS1
+Value='1                   ';BLUE BAND
+Value='2                   ';PAN
+Value='3                   ';PLASTIC CONTAINER
+Value='4                   ';CRATE
+Value='5                   ';ANY OTHER (SPECIFY)
+
+[Item]
+Label=LAST MAJOR BAD VALUE
+Name=LAST_MAJOR_BAD_VALUE
+Start=60
+Len=6
+
+[Item]
+Label=LAST MAJOR AVERAGE QUANTITY
+Name=LAST_MAJOR_AVERAGE_QUANTITY
+Start=66
+Len=3
+
+[Item]
+Label=LAST MAJOR AVERAGE UNIT
+Name=LAST_MAJOR_AVERAGE_UNIT
+Start=69
+Len=20
+DataType=Alpha
+
+[ValueSet]
+Label=LAST MAJOR AVERAGE UNIT
+Name=LAST_MAJOR_AVERAGE_UNIT_VS1
+Value='1                   ';BLUE BAND
+Value='2                   ';PAN
+Value='3                   ';PLASTIC CONTAINER
+Value='4                   ';CRATE
+Value='5                   ';ANY OTHER (SPECIFY)
+
+[Item]
+Label=LAST MAJOR AVERAGE VALUE
+Name=LAST_MAJOR_AVERAGE_VALUE
+Start=89
+Len=6
+
+[Item]
+Label=LAST MINOR GOOD QUANTITY
+Name=LAST_MINOR_GOOD_QUANTITY
+Start=95
+Len=3
+
+[Item]
+Label=LAST MINOR GOOD UNIT
+Name=LAST_MINOR_UNIT2
+Start=98
+Len=20
+DataType=Alpha
+
+[ValueSet]
+Label=LAST MINOR GOOD UNIT
+Name=LAST_MINOR_UNIT2_VS1
+Value='1                   ';BLUE BAND
+Value='2                   ';PAN
+Value='3                   ';PLASTIC CONTAINER
+Value='4                   ';CRATE
+Value='5                   ';ANY OTHER (SPECIFY)
+
+[Item]
+Label=LAST MINOR GOOD VALUE
+Name=LAST_MINOR_GOOD_VALUE
+Start=118
+Len=6
+
+[Item]
+Label=LAST MINOR  BAD QUANTITY
+Name=MINOR_BAD_QUANTITY
+Start=124
+Len=3
+
+[Item]
+Label=LAST MINOR BAD UNIT
+Name=LAST_MINOR_BAD_UNIT
+Start=127
+Len=20
+DataType=Alpha
+
+[ValueSet]
+Label=LAST MINOR BAD UNIT
+Name=LAST_MINOR_BAD_UNIT_VS1
+Value='1                   ';BLUE BAND
+Value='2                   ';PAN
+Value='3                   ';PLASTIC CONTAINER
+Value='4                   ';CRATE
+Value='5                   ';ANY OTHER (SPECIFY)
+
+[Item]
+Label=LAST MINOR  BAD VALUE
+Name=MINOR_BAD_VALUE
+Start=147
+Len=6
+
+[Item]
+Label=LAST MINOR AVERAGE QUANTITY
+Name=LAST_MINOR_AVERAGE_QUNATITY
+Start=153
+Len=6
+
+[Item]
+Label=LAST MINOR AVERAGE UNIT
+Name=LAST_MINOR_AVERAGE_UNIT
+Start=159
+Len=20
+DataType=Alpha
+
+[ValueSet]
+Label=LAST MINOR AVERAGE UNIT
+Name=LAST_MINOR_AVERAGE_UNIT_VS1
+Value='1                   ';BLUE BAND
+Value='2                   ';PAN
+Value='3                   ';PLASTIC CONTAINER
+Value='4                   ';CRATE
+Value='5                   ';ANY OTHER (SPECIFY)
+
+[Item]
+Label=LAST MINOR AVERAGE VALUE
+Name=LAST_MINOR_AVERAGE_VALUE
+Start=179
+Len=6
+
+[Item]
+Label=LAST OFF SEASON QUANTITY
+Name=LAST_OFF_SEASON_QUANTITY
+Start=185
+Len=3
+
+[Item]
+Label=LAST OFF SEASON GOOD UNIT
+Name=LAST_OFF_GOOD_SEASON_UNIT
+Start=188
+Len=20
+DataType=Alpha
+
+[ValueSet]
+Label=LAST OFF SEASON GOOD UNIT
+Name=LAST_OFF_GOOD_SEASON_UNIT_VS1
+Value='1                   ';BLUE BAND
+Value='2                   ';PAN
+Value='3                   ';PLASTIC CONTAINER
+Value='4                   ';CRATE
+Value='5                   ';ANY OTHER (SPECIFY)
+
+[Item]
+Label=LAST OFF SEASON VALUE
+Name=LAST_OFF_SEASON_VALUE
+Start=208
+Len=6
+
+[Item]
+Label=LAST OFF SEASON BAD QUANTITY
+Name=LAST_OFF_SEASON_BAD_QUANTITY
+Start=214
+Len=3
+
+[Item]
+Label=LAST OFF BAD UNIT
+Name=LAST_OFF_BAD_UNIT
+Start=217
+Len=20
+DataType=Alpha
+
+[ValueSet]
+Label=LAST OFF BAD UNIT
+Name=LAST_OFF_BAD_UNIT_VS1
+Value='1                   ';BLUE BAND
+Value='2                   ';PAN
+Value='3                   ';PLASTIC CONTAINER
+Value='4                   ';CRATE
+Value='5                   ';ANY OTHER (SPECIFY)
+
+[Item]
+Label=LAST OFF SEASON BAD VALUE
+Name=LAST_OFF_SEASON_BAD_VALUE
+Start=237
+Len=6
+
+[Item]
+Label=LAST OFF SEASON AVERAGE QUANTITY
+Name=LAST_OFF_SEASON_AVERAGE_QUANTITY
+Start=243
+Len=3
+
+[Item]
+Label=LAST OFF SEASON AVERAGE UNIT
+Name=LAST_OFF_SEASON_AVERAGE_UNIT
+Start=246
+Len=20
+DataType=Alpha
+
+[ValueSet]
+Label=LAST OFF SEASON AVERAGE UNIT
+Name=LAST_OFF_SEASON_AVERAGE_UNIT_VS1
+Value='1                   ';BLUE BAND
+Value='2                   ';PAN
+Value='3                   ';PLASTIC CONTAINER
+Value='4                   ';CRATE
+Value='5                   ';ANY OTHER (SPECIFY)
+
+[Item]
+Label=LAST OFF SEASON AVERAGE VALUE
+Name=LAST_OFF_SEASON_AVERAGE_VALUE
+Start=266
+Len=6
+
+[Record]
+Label=SECTION 8 PART 3
+Name=SECTION_8_PART_3
+RecordTypeValue='G'
+RecordLen=25
+
+[Item]
+Label=Q8.1 MAJOR SEASON
+Name=Q8_1_MAJOR_SEASON
+Start=8
+Len=6
+
+[Item]
+Label=Q8.2 MINOR SEASON
+Name=Q8_2_MINOR_SEASON
+Start=14
+Len=6
+
+[Item]
+Label=Q8.3 OFF SEASON
+Name=Q8_3_OFF_SEASON
+Start=20
+Len=6
+
+[Record]
+Label=SECTION 9 PART 1
+Name=SECTION_9_PART_1
+RecordTypeValue='H'
+RecordLen=59
+
+[Item]
+Label=SECTION 9 Q1
+Name=SECTION_9_Q1
+Start=8
+Len=3
+
+[Item]
+Label=SECTION 9 Q2
+Name=SECTION_9_Q2
+Start=11
+Len=3
+
+[Item]
+Label=SECTION 9 Q3
+Name=SECTION_9_Q3
+Start=14
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 9 Q3
+Name=SECTION_9_Q3_VS1
+Value='A';YES
+Value='B';NO
+
+[Item]
+Label=SECTION 9 Q4
+Name=SECTION_9_Q4
+Start=15
+Len=4
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 9 Q4
+Name=SECTION_9_Q4_VS1
+Value='A   ';YES
+Value='B   ';NO
+
+[Item]
+Label=SECTION 9 Q5
+Name=SECTION_9_Q5
+Start=19
+Len=3
+
+[Item]
+Label=SECTION 9 Q6
+Name=SECTION_9_Q6
+Start=22
+Len=4
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 9 Q6
+Name=SECTION_9_Q6_VS1
+Value='A   ';YOUR HUSBAND
+Value='B   ';YOU AND / OR YOUR HUSBAND'S CHILD
+Value='C   ';YOU OR YOUR HUSBANDS RELATIVE
+Value='D   ';YOU OR YOUR HUSBANDS FRIEND
+Value='E   ';CLOSE NEIGHBOUR
+Value='F   ';FISHERMAN WITHIN THE COMUNITY
+Value='G   ';NON FISHERMAN (SAIKO BOAT OWNER WITHIN THE COMUNITY)
+Value='H   ';FISHERMAN FROM ANOHER COMUNITY
+Value='I   ';NON FISHERMAN (SAIKO BOAT OWNER FRO ANOTHER COMUNITY)
+Value='J   ';SOMEONE WHO BUYS FRO SAIKO BOAT OWNERS AND RETAIL TO YOU
+
+[Item]
+Label=SECTION 9 Q7
+Name=SECTION_9_Q7
+Start=26
+Len=30
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 9 Q7
+Name=SECTION_9_Q7_VS1
+Value='A                             ';YOU WERE CONTACTED BY SOMEONE
+Value='B                             ';YOU CONTACTED SOMEONE
+Value='C                             ';ANY OTHER (SPECIFY)
+
+[Item]
+Label=SECTION 9 Q8
+Name=SECTION_9_Q8
+Start=56
+Len=4
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 9 Q8
+Name=SECTION_9_Q8_VS1
+Value='A   ';VERY SUCCESSFUL
+Value='B   ';SOMEWHAT SUCCESSFUL
+Value='C   ';SOMEWHAT UNSUCCESSFUL
+Value='D   ';VERY UNSUCCESFULL
+
+[Record]
+Label=SECTION 9 PART 2
+Name=SECTION_9_PART_2
+RecordTypeValue='B'
+RecordLen=79
+
+[Item]
+Label=LAST MAJOR AVERAGE PRICE
+Name=LAST_MAJOR_AVERAGE_PRICE
+Start=8
+Len=6
+
+[Item]
+Label=LAST MAJOR SLABS BOUGHT
+Name=LAST_MAJOR_SLABS_BOUGHT
+Start=14
+Len=6
+
+[Item]
+Label=LAST MAJOR AVERAGE RETAIL
+Name=LAST_MAJOR_AVERAGE_RETAIL
+Start=20
+Len=6
+
+[Item]
+Label=LAST MAJOR AVERAGE PROFIT
+Name=LAST_MAJOR_AVERAGE_PROFIT
+Start=26
+Len=6
+
+[Item]
+Label=LAST MINOR AVERAGE PRICE
+Name=LAST_MINOR_AVERAGE_PRICE
+Start=32
+Len=6
+
+[Item]
+Label=LAST MINOR SLABS BOUGHT
+Name=LAST_MINOR_SLABS_BOUGHT
+Start=38
+Len=6
+
+[Item]
+Label=LAST MINOR AVERAGE RETAIL
+Name=LAST_MINOR_AVERAGE_RETAIL
+Start=44
+Len=6
+
+[Item]
+Label=LAST MINOR AVERAGE PROFIT
+Name=LAST_MINOR_AVERAGE_PROFIT
+Start=50
+Len=6
+
+[Item]
+Label=OFF SEASON AVERAGE PRICE
+Name=OFF_SEASON_AVERAGE_PRICE
+Start=56
+Len=6
+
+[Item]
+Label=OFF SEASON SLABS BOUGHT
+Name=OFF_SEASON_SLABS_BOUGHT
+Start=62
+Len=6
+
+[Item]
+Label=OFF SEASON AVERAGE RETAIL
+Name=OFF_SEASON_AVERAGE_RETAIL
+Start=68
+Len=6
+
+[Item]
+Label=OFF SEASON AVERAGE PROFIT
+Name=OFF_SEASON_AVERAGE_PROFIT
+Start=74
+Len=6
+
+[Record]
+Label=SECTION 9 PART 3
+Name=SECTION_9_PART_3
+RecordTypeValue='J'
+RecordLen=45
+
+[Item]
+Label=SECTION 9 Q10
+Name=SECTION_9_Q10
+Start=8
+Len=4
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 9 Q10
+Name=SECTION_9_Q10_VS1
+Value='A   ';FRESH
+Value='B   ';FRIED
+Value='C   ';SMOKED
+Value='D   ';SAND DRIED
+Value='E   ';OTHER (SPECIFY)
+
+[Item]
+Label=SECTION 9 Q11
+Name=SECTION_9_Q11
+Start=12
+Len=4
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 9 Q11
+Name=SECTION_9_Q11_VS1
+Value='A   ';OFTEN
+Value='B   ';SOMETIMES
+Value='C   ';SELDOM
+Value='D   ';NEVER
+
+[Item]
+Label=SECTION 9 Q12
+Name=SECTION_9_Q12
+Start=16
+Len=20
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 9 Q12
+Name=SECTION_9_Q12_VS1
+Value='A                   ';FIXED PRICE
+Value='B                   ';BARGAINED PRICE
+Value='C                   ';OTHER (SPECIFY)
+
+[Item]
+Label=SECTION 9 Q13
+Name=SECTION_9_Q13
+Start=36
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 9 Q13
+Name=SECTION_9_Q13_VS1
+Value='A';NOT LIKELY
+Value='B';SOMEWAHT LIKELY
+Value='C';VERY LIKELY
+
+[Item]
+Label=SECTION 9 Q14
+Name=SECTION_9_Q14
+Start=37
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 9 Q14
+Name=SECTION_9_Q14_VS1
+Value='A';YES
+Value='B';NO
+Value='C';UNDECIDED
+
+[Item]
+Label=SECTION 9 Q15
+Name=SECTION_9_Q15
+Start=38
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 9 Q15
+Name=SECTION_9_Q15_VS1
+Value='A';NOT LIKELY
+Value='B';SOMEWAHT LIKELY
+Value='C';VERY LIKELY
+
+[Item]
+Label=SECTION 9 Q16
+Name=SECTION_9_Q16
+Start=39
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 9 Q16
+Name=SECTION_9_Q16_VS1
+Value='A';COMPLETELY AGREE
+Value='B';AGREE
+Value='C';DISAGREE
+Value='D';COMPLETELY DISAGREE
+Value='E';UNDECIDED
+
+[Item]
+Label=SECTION 9 Q17
+Name=SECTION_9_Q17
+Start=40
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 9 Q17
+Name=SECTION_9_Q17_VS1
+Value='A';COMPLETELY AGREE
+Value='B';AGREE
+Value='C';DISAGREE
+Value='D';COMPLETELY DISAGREE
+Value='E';UNDECIDED
+
+[Item]
+Label=SECTION 9 Q18
+Name=SECTION_9_Q18
+Start=41
+Len=3
+
+[Item]
+Label=SECTION 9 Q19
+Name=SECTION_9_Q19
+Start=44
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 9 Q19
+Name=SECTION_9_Q19_VS1
+Value='A';BY CATCH
+Value='B';TARGETED CATCH
+Value='C';EQUAL PROPORTION OF BY CATCH AND TARGETED CATCH
+Value='D';DON'T KNOW
+
+[Item]
+Label=SECTION 9 Q20
+Name=SECTION_9_Q20
+Start=45
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 9 Q20
+Name=SECTION_9_Q20_VS1
+Value='A';VERY HIGH (AT LEAST 1 IN 2)
+Value='B';HIGH (1 IN 4)
+Value='C';QUIET POSSIBLE (1 IN 10)
+Value='D';MODERATELY LOW (1 IN 20)
+Value='E';VERY LOW (1 IN 20)
+
+[Record]
+Label=SECTION 10 PART 1
+Name=SECTION_10_PART_1
+RecordTypeValue='K'
+RecordLen=21
+
+[Item]
+Label=SECTION 10 PART 1 Q1
+Name=SECTION_10_Q1
+Start=8
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 10 PART 1 Q1
+Name=SECTION_10_Q1_VS1
+Value='A';TRUE
+Value='B';FALSE
+Value='C';I DON'T KNOW
+
+[Item]
+Label=SECTION 10 PART 1 Q2
+Name=SECTION_10_Q2
+Start=9
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 10 PART 1 Q2
+Name=SECTION_10_Q2_VS1
+Value='A';TRUE
+Value='B';FALSE
+Value='C';I DON'T KNOW
+
+[Item]
+Label=SECTION 10 PART 1 Q3
+Name=SECTION_10_Q3
+Start=10
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 10 PART 1 Q3
+Name=SECTION_10_Q3_VS1
+Value='A';TRUE
+Value='B';FALSE
+Value='C';I DON'T KNOW
+
+[Item]
+Label=SECTION 10 PART 1 Q4
+Name=SECTION_10_Q4
+Start=11
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 10 PART 1 Q4
+Name=SECTION_10_Q4_VS1
+Value='A';TRUE
+Value='B';FALSE
+Value='C';I DON'T KNOW
+
+[Item]
+Label=SECTION 10 PART 1 Q5
+Name=SECTION_10_Q5
+Start=12
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 10 PART 1 Q5
+Name=SECTION_10_Q5_VS1
+Value='A';TRUE
+Value='B';FALSE
+Value='C';I DON'T KNOW
+
+[Item]
+Label=SECTION 10 PART 1 Q6
+Name=SECTION_10_Q6
+Start=13
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 10 PART 1 Q6
+Name=SECTION_10_Q6_VS1
+Value='A';TRUE
+Value='B';FALSE
+Value='C';I DON'T KNOW
+
+[Item]
+Label=SECTION 10 PART 1 Q7
+Name=SECTION_10_Q7
+Start=14
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 10 PART 1 Q7
+Name=SECTION_10_Q7_VS1
+Value='A';TRUE
+Value='B';FALSE
+Value='C';I DON'T KNOW
+
+[Item]
+Label=SECTION 10 PART 1 Q8
+Name=SECTION_10_Q8
+Start=15
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 10 PART 1 Q8
+Name=SECTION_10_Q8_VS1
+Value='A';TRUE
+Value='B';FALSE
+Value='C';I DON'T KNOW
+
+[Item]
+Label=SECTION 10 PART 1 Q9
+Name=SECTION_10_Q9
+Start=16
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 10 PART 1 Q9
+Name=SECTION_10_Q9_VS1
+Value='A';TRUE
+Value='B';FALSE
+Value='C';I DON'T KNOW
+
+[Item]
+Label=SECTION 10 PART 1 Q10
+Name=SECTION_10_Q10
+Start=17
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 10 PART 1 Q10
+Name=SECTION_10_Q10_VS1
+Value='A';TRUE
+Value='B';FALSE
+Value='C';I DON'T KNOW
+
+[Item]
+Label=SECTION 10 PART 1 Q11
+Name=SECTION_10_Q11
+Start=18
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 10 PART 1 Q11
+Name=SECTION_10_Q11_VS1
+Value='A';TRUE
+Value='B';FALSE
+Value='C';I DON'T KNOW
+
+[Item]
+Label=SECTION 10 PART 1 Q12
+Name=SECTION_10_Q12
+Start=19
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 10 PART 1 Q12
+Name=SECTION_10_Q12_VS1
+Value='A';TRUE
+Value='B';FALSE
+Value='C';I DON'T KNOW
+
+[Item]
+Label=SECTION 10 PART 1 Q13
+Name=SECTION_10_Q13
+Start=20
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 10 PART 1 Q13
+Name=SECTION_10_Q13_VS1
+Value='A';YES
+Value='B';NO
+
+[Item]
+Label=SECTION 10 PART 1 Q14
+Name=SECTION_10_Q14
+Start=21
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 10 PART 1 Q14
+Name=SECTION_10_Q14_VS1
+Value='A';YES
+Value='B';NO
+
+[Record]
+Label=SECTION 10 PART 2
+Name=SECTION_10_PART_2
+RecordTypeValue='L'
+RecordLen=10
+
+[Item]
+Label=SECTION 10 PART 2 Q1
+Name=SECTION_10_PART_2_Q1
+Start=8
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 10 PART 2 Q1
+Name=SECTION_10_PART_2_Q1_VS1
+Value='A';AGREE
+Value='B';DISAGREE
+Value='C';I DON'T KNOW
+
+[Item]
+Label=SECTION 10 PART 2 Q2
+Name=SECTION_10_PART_2_Q2
+Start=9
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 10 PART 2 Q2
+Name=SECTION_10_PART_2_Q2_VS1
+Value='A';YES
+Value='B';NO
+
+[Item]
+Label=SECTION 10 PART 2 Q3
+Name=SECTION_10_PART_2_Q3
+Start=10
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 10 PART 2 Q3
+Name=SECTION_10_PART_2_Q3_VS1
+Value='A';YES
+Value='B';NO
+
+[Record]
+Label=SECTION 10 PART 3
+Name=SECTION_10_PART_3
+RecordTypeValue='M'
+RecordLen=11
+
+[Item]
+Label=SECTION 10 PART 3 Q1
+Name=SECTION_10_PART_3_Q1
+Start=8
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 10 PART 3 Q1
+Name=SECTION_10_PART_3_Q1_VS1
+Value='A';YES
+Value='B';NO
+
+[Item]
+Label=SECTION 10 PART 3 Q2
+Name=SECTION_10_PART_3_Q2
+Start=9
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 10 PART 3 Q2
+Name=SECTION_10_PART_3_Q2_VS1
+Value='A';YES
+Value='B';NO
+
+[Item]
+Label=SECTION 10 PART 3 Q3
+Name=SECTION_10_PART_3_Q3
+Start=10
+Len=1
+
+[Item]
+Label=SECTION 10 PART 3 Q4
+Name=SECTION_10_PART_3_Q4
+Start=11
+Len=1
+
+[Record]
+Label=SECTION 10 PART 4
+Name=SECTION_10_PART_4
+RecordTypeValue='N'
+RecordLen=21
+
+[Item]
+Label=SECTION 10 PART 4 Q1
+Name=SECTION_10_PART_4_Q1
+Start=8
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 10 PART 4 Q1
+Name=SECTION_10_PART_4_Q1_VS1
+Value='A';YES
+Value='B';NO
+
+[Item]
+Label=SECTION 10 PART 4 Q2
+Name=SECTION_10_PART_4_Q2
+Start=9
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 10 PART 4 Q2
+Name=SECTION_10_PART_4_Q2_VS1
+Value='A';YES
+Value='B';NO
+
+[Item]
+Label=SECTION 10 PART 4 Q3
+Name=SECTION_10_PART_4_Q3
+Start=10
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 10 PART 4 Q3
+Name=SECTION_10_PART_4_Q3_VS1
+Value='A';YES
+Value='B';NO
+
+[Item]
+Label=SECTION 10 PART 4 Q4
+Name=SECTION_10_PART_4_Q4
+Start=11
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 10 PART 4 Q4
+Name=SECTION_10_PART_4_Q4_VS1
+Value='A';AGREE
+Value='B';DISAGREE
+Value='C';I DON'T KNOW
+
+[Item]
+Label=SECTION 10 PART 4 Q5
+Name=SECTION_10_PART_4_Q5
+Start=12
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 10 PART 4 Q5
+Name=SECTION_10_PART_4_Q5_VS1
+Value='A';YES
+Value='B';NO
+
+[Item]
+Label=SECTION 10 PART 4 Q6
+Name=SECTION_10_PART_4_Q6
+Start=13
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 10 PART 4 Q6
+Name=SECTION_10_PART_4_Q6_VS1
+Value='A';AGREE
+Value='B';DISAGREE
+Value='C';I DON'T KNOW
+
+[Item]
+Label=SECTION 10 PART 4 Q7
+Name=SECTION_10_PART_4_Q7
+Start=14
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 10 PART 4 Q7
+Name=SECTION_10_PART_4_Q7_VS1
+Value='A';AGREE
+Value='B';DISAGREE
+Value='C';I DON'T KNOW
+
+[Item]
+Label=SECTION 10 PART 4 Q8
+Name=SECTION_10_PART_4_Q8
+Start=15
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 10 PART 4 Q8
+Name=SECTION_10_PART_4_Q8_VS1
+Value='A';AGREE
+Value='B';DISAGREE
+Value='C';I DON'T KNOW
+
+[Item]
+Label=SECTION 10 PART 4 Q9
+Name=SECTION_10_PART_4_Q9
+Start=16
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 10 PART 4 Q9
+Name=SECTION_10_PART_4_Q9_VS1
+Value='A';AGREE
+Value='B';DISAGREE
+Value='C';I DON'T KNOW
+
+[Item]
+Label=SECTION 10 PART 4 Q10
+Name=SECTION_10_PART_4_Q10
+Start=17
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 10 PART 4 Q10
+Name=SECTION_10_PART_4_Q10_VS1
+Value='A';AGREE
+Value='B';DISAGREE
+Value='C';I DON'T KNOW
+
+[Item]
+Label=SECTION 10 PART 4 Q11
+Name=SECTION_10_PART_4_Q11
+Start=18
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 10 PART 4 Q11
+Name=SECTION_10_PART_4_Q11_VS1
+Value='A';AGREE
+Value='B';DISAGREE
+Value='C';I DON'T KNOW
+
+[Item]
+Label=SECTION 10 PART 4 Q12
+Name=SECTION_10_PART_4_Q12
+Start=19
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 10 PART 4 Q12
+Name=SECTION_10_PART_4_Q12_VS1
+Value='A';AGREE
+Value='B';DISAGREE
+Value='C';I DON'T KNOW
+
+[Item]
+Label=SECTION 10 PART 4 Q13
+Name=SECTION_10_PART_4_Q13
+Start=20
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 10 PART 4 Q13
+Name=SECTION_10_PART_4_Q13_VS1
+Value='A';AGREE
+Value='B';DISAGREE
+Value='C';I DON'T KNOW
+
+[Item]
+Label=SECTION 10 PART 4 Q14
+Name=SECTION_10_PART_4_Q14
+Start=21
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 10 PART 4 Q14
+Name=SECTION_10_PART_4_Q14_VS1
+Value='A';AGREE
+Value='B';DISAGREE
+Value='C';I DON'T KNOW
+
+[Record]
+Label=SECTION 10 PART 5
+Name=SECTION_10_PART_5
+RecordTypeValue='U'
+RecordLen=32
+
+[Item]
+Label=SECTION 10B  Q1
+Name=SECTION_10B_Q1
+Start=8
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 10B  Q1
+Name=SECTION_10B_Q1_VS1
+Value='A';The cost has increased
+Value='B';The cost has decreased
+Value='C';The cost has not changed
+Value='D';I cannot tell.
+
+[Item]
+Label=SECTION 10B  Q2
+Name=SECTION_10B_Q2
+Start=9
+Len=3
+
+[Item]
+Label=SECTION 10B  Q3
+Name=SECTION_10B_Q3
+Start=12
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 10B  Q3
+Name=SECTION_10B_Q3_VS1
+Value='A';The quantity has increased
+Value='B';The quantity has decreased
+Value='C';The quantity has not changed
+Value='D';I cannot tell
+
+[Item]
+Label=SECTION 10B  Q4
+Name=SECTION_10B_Q4
+Start=13
+Len=3
+
+[Item]
+Label=SECTION 10B  Q5
+Name=SECTION_10B_Q5
+Start=16
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 10B  Q5
+Name=SECTION_10B_Q5_VS1
+Value='A';The net revenue has increased
+Value='B';The net revenue has decreased
+Value='C';The net revenue has not changed
+Value='D';I cannot tell
+
+[Item]
+Label=SECTION 10B  Q6
+Name=SECTION_10B_Q6
+Start=17
+Len=3
+
+[Item]
+Label=SECTION 10B  Q7
+Name=SECTION_10B_Q7
+Start=20
+Len=2
+
+[Item]
+Label=SECTION 10B  Q8
+Name=SECTION_10B_Q8
+Start=22
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 10B  Q8
+Name=SECTION_10B_Q8_VS1
+Value='A';Yes
+Value='B';No
+
+[Item]
+Label=SECTION 10B  Q9
+Name=SECTION_10B_Q9
+Start=23
+Len=3
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 10B  Q9
+Name=SECTION_10B_Q9_VS1
+Value='A  ';The number of workers reduce
+Value='B  ';The number of increased
+Value='C  ';No change in in the number of workers
+
+[Item]
+Label=SECTION 10B  Q10
+Name=SECTION_10B_Q10
+Start=26
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 10B  Q10
+Name=SECTION_10B_Q10_VS1
+Value='A';Total Catch has increased
+Value='B';Total Catch has decreased
+Value='C';Total Catch has not changed
+Value='B';I cannot tell
+
+[Item]
+Label=SECTION 10B  Q11
+Name=SECTION_10B_Q11
+Start=27
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 10B  Q11
+Name=SECTION_10B_Q11_VS1
+Value='A';The price has increased
+Value='B';The price has decreased
+Value='C';The price has not changed
+Value='D';I cannot tell
+
+[Item]
+Label=SECTION 10B Q12
+Name=SECTION_10B_Q12
+Start=28
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 10B Q12
+Name=SECTION_10B_Q12_VS1
+Value='A';Yes
+Value='B';No
+
+[Item]
+Label=SECTION 10B  Q13
+Name=SECTION_10B_Q13
+Start=29
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 10B  Q13
+Name=SECTION_10B_Q13_VS1
+Value='A';Switch to buying from other landing beaches
+Value='B';Change of occupation away from fishing
+Value='C';Migrating out of the area
+Value='D';Sold assets to feed the family
+Value='E';Reduced consumption of food
+Value='F';Did nothing
+
+[Item]
+Label=SECTION 10B  Q14
+Name=SECTION_10B_Q14
+Start=30
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 10B  Q14
+Name=SECTION_10B_Q14_VS1
+Value='A';Yes
+Value='B';No
+
+[Item]
+Label=SECTION 10B Q15
+Name=SECTION_10B_Q15
+Start=31
+Len=2
+
+[Record]
+Label=SECTION 11
+Name=SECTION_11
+RecordTypeValue='O'
+RecordLen=160
+
+[Item]
+Label=Q1 HOURS
+Name=Q1_HOURS
+Start=8
+Len=2
+
+[Item]
+Label=Q1 MINUTE
+Name=Q1_MINUTE
+Start=10
+Len=2
+
+[Item]
+Label=Q1 TOTAL
+Name=Q1_TOTAL
+Start=12
+Len=4
+
+[Item]
+Label=Q2 HOURS
+Name=Q2_HOURS
+Start=16
+Len=2
+
+[Item]
+Label=Q2 MINUTE
+Name=Q2_MINUTE
+Start=18
+Len=2
+
+[Item]
+Label=Q2 TOTAL
+Name=Q2_TOTAL
+Start=20
+Len=4
+
+[Item]
+Label=Q3 HOURS
+Name=Q3_HOURS
+Start=24
+Len=2
+
+[Item]
+Label=Q3 MINUTE
+Name=Q3_MINUTE
+Start=26
+Len=2
+
+[Item]
+Label=Q3 TOTAL
+Name=Q3_TOTAL
+Start=28
+Len=4
+
+[Item]
+Label=Q4 HOURS
+Name=Q4_HOURS
+Start=32
+Len=2
+
+[Item]
+Label=Q4 MINUTE
+Name=Q4_MINUTE
+Start=34
+Len=2
+
+[Item]
+Label=Q4 TOTAL
+Name=Q4_TOTAL
+Start=36
+Len=4
+
+[Item]
+Label=Q5 HOURS
+Name=Q5_HOURS
+Start=40
+Len=2
+
+[Item]
+Label=Q5 MINUTE
+Name=Q5_MINUTE
+Start=42
+Len=2
+
+[Item]
+Label=Q5 TOTAL
+Name=Q5_TOTAL
+Start=44
+Len=4
+
+[Item]
+Label=Q6 HOURS
+Name=Q6_HOURS
+Start=48
+Len=2
+
+[Item]
+Label=Q6 MINUTE
+Name=Q6_MINUTE
+Start=50
+Len=2
+
+[Item]
+Label=Q6 TOTAL
+Name=Q6_TOTAL
+Start=52
+Len=4
+
+[Item]
+Label=Q7 HOURS
+Name=Q7_HOURS
+Start=56
+Len=2
+
+[Item]
+Label=Q7 MINUTE
+Name=Q7_MINUTE
+Start=58
+Len=2
+
+[Item]
+Label=Q7 TOTAL
+Name=Q7_TOTAL
+Start=60
+Len=4
+
+[Item]
+Label=Q8 HOURS
+Name=Q8_HOURS
+Start=64
+Len=2
+
+[Item]
+Label=Q8 MINUTE
+Name=Q8_MINUTE
+Start=66
+Len=2
+
+[Item]
+Label=Q8 TOTAL
+Name=Q8_TOTAL
+Start=68
+Len=4
+
+[Item]
+Label=Q9 HOURS
+Name=Q9_HOURS
+Start=72
+Len=2
+
+[Item]
+Label=Q9 MINUTE
+Name=Q9_MINUTE
+Start=74
+Len=2
+
+[Item]
+Label=Q9 TOTAL
+Name=Q9_TOTAL
+Start=76
+Len=4
+
+[Item]
+Label=Q10 HOURS
+Name=Q10_HOURS
+Start=80
+Len=2
+
+[Item]
+Label=Q10 MINUTE
+Name=Q10_MINUTE
+Start=82
+Len=2
+
+[Item]
+Label=Q10 TOTAL
+Name=Q10_TOTAL
+Start=84
+Len=4
+
+[Item]
+Label=Q11 HOURS
+Name=Q11_HOURS
+Start=88
+Len=2
+
+[Item]
+Label=Q11 MINUTE
+Name=Q11_MINUTE
+Start=90
+Len=2
+
+[Item]
+Label=Q11 TOTAL
+Name=Q11_TOTAL
+Start=92
+Len=4
+
+[Item]
+Label=Q12 HOURS
+Name=Q12_HOURS
+Start=96
+Len=2
+
+[Item]
+Label=Q12 MINUTE
+Name=Q12_MINUTE
+Start=98
+Len=2
+
+[Item]
+Label=Q12 TOTAL
+Name=Q12_TOTAL
+Start=100
+Len=4
+
+[Item]
+Label=Q13 HOURS
+Name=Q13_HOURS
+Start=104
+Len=2
+
+[Item]
+Label=Q13 MINUTE
+Name=Q13_MINUTE
+Start=106
+Len=2
+
+[Item]
+Label=Q13 TOTAL
+Name=Q13_TOTAL
+Start=108
+Len=4
+
+[Item]
+Label=Q14 HOURS
+Name=Q14_HOURS
+Start=112
+Len=2
+
+[Item]
+Label=Q14 MINUTE
+Name=Q14_MINUTE
+Start=114
+Len=2
+
+[Item]
+Label=Q14 TOTAL
+Name=Q14_TOTAL
+Start=116
+Len=4
+
+[Item]
+Label=Q15 HOURS
+Name=Q15_HOURS
+Start=120
+Len=2
+
+[Item]
+Label=Q15 MINUTE
+Name=Q15_MINUTE
+Start=122
+Len=2
+
+[Item]
+Label=Q15 TOTAL
+Name=Q15_TOTAL
+Start=124
+Len=4
+
+[Item]
+Label=Q16 HOURS
+Name=Q16_HOURS
+Start=128
+Len=2
+
+[Item]
+Label=Q16 MINUTE
+Name=Q16_MINUTE
+Start=130
+Len=2
+
+[Item]
+Label=Q16 TOTAL
+Name=Q16_TOTAL
+Start=132
+Len=4
+
+[Item]
+Label=Q17 HOURS
+Name=Q17_HOURS
+Start=136
+Len=2
+
+[Item]
+Label=Q17 MINUTE
+Name=Q17_MINUTE
+Start=138
+Len=2
+
+[Item]
+Label=Q17 TOTAL
+Name=Q17_TOTAL
+Start=140
+Len=4
+
+[Item]
+Label=Q18 HOURS
+Name=Q18_HOURS
+Start=144
+Len=2
+
+[Item]
+Label=Q18 MINUTE
+Name=Q18_MINUTE
+Start=146
+Len=2
+
+[Item]
+Label=Q18 TOTAL
+Name=Q18_TOTAL
+Start=148
+Len=4
+
+[Item]
+Label=Q19 OTHER HOURS
+Name=Q19_OTHER_SPECIFY
+Start=152
+Len=2
+
+[Item]
+Label=Q19 OTHER MINUTES
+Name=Q19_OTHER_MINUTE_SPECIFY
+Start=154
+Len=2
+
+[Item]
+Label=Q19 OTHER TOTAL
+Name=Q19_OTHER_TOTAL_SPECIFY
+Start=156
+Len=4
+
+[Item]
+Label=Q20
+Name=Q20
+Start=160
+Len=1
+
+[ValueSet]
+Label=Q20
+Name=Q20_VS1
+Value=1;YES
+Value=0;NO
+
+[Record]
+Label=SECTION 12
+Name=SECTION_12
+RecordTypeValue='P'
+RecordLen=37
+
+[Item]
+Label=Q1A
+Name=Q1A
+Start=8
+Len=6
+
+[Item]
+Label=Q1B
+Name=Q1B
+Start=14
+Len=6
+
+[Item]
+Label=Q1C
+Name=Q1C
+Start=20
+Len=6
+
+[Item]
+Label=Q1D
+Name=Q1D
+Start=26
+Len=6
+
+[Item]
+Label=Q1E
+Name=Q1E
+Start=32
+Len=6
+
+[Record]
+Label=SECTION 13
+Name=SECTION_13
+RecordTypeValue='Q'
+RecordLen=18
+
+[Item]
+Label=SECTION 13 Q1
+Name=SECTION_13_Q1
+Start=8
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 13 Q1
+Name=SECTION_13_Q1_VS1
+Value='A';GH 1000.00 at the end of this month
+Value='B';GH 2000.00 at the end of 6 months
+
+[Item]
+Label=SECTION 13 Q2
+Name=SECTION_13_Q2
+Start=9
+Len=10
+
+[Record]
+Label=SECTION 14
+Name=SECTION_14
+RecordTypeValue='R'
+RecordLen=25
+
+[Item]
+Label=SECTION 14 Q1
+Name=SECTION_14_Q1
+Start=8
+Len=3
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION 14 Q1
+Name=SECTION_14_Q1_VS1
+Value='A  ';GAMBLE
+Value='B  ';NO GAMBLE
+
+[Item]
+Label=SECTION Q14 Q2
+Name=SECTION_Q14_Q2
+Start=11
+Len=3
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION Q14 Q2
+Name=SECTION_Q14_Q2_VS1
+Value='A  ';GAMBLE
+Value='B  ';NO GAMBLE
+
+[Item]
+Label=SECTION Q14 Q3
+Name=SECTION_Q14_Q3
+Start=14
+Len=3
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION Q14 Q3
+Name=SECTION_Q14_Q3_VS1
+Value='A  ';GAMBLE
+Value='B  ';NO GAMBLE
+
+[Item]
+Label=SECTION Q14 Q4
+Name=SECTION_Q14_Q4
+Start=17
+Len=3
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION Q14 Q4
+Name=SECTION_Q14_Q4_VS1
+Value='A  ';GAMBLE
+Value='B  ';NO GAMBLE
+
+[Item]
+Label=SECTION Q14 Q5
+Name=SECTION_Q14_Q5
+Start=20
+Len=3
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION Q14 Q5
+Name=SECTION_Q14_Q5_VS1
+Value='A  ';GAMBLE
+Value='B  ';NO GAMBLE
+
+[Item]
+Label=SECTION Q14 Q6
+Name=SECTION_Q14_Q6
+Start=23
+Len=3
+DataType=Alpha
+
+[ValueSet]
+Label=SECTION Q14 Q6
+Name=SECTION_Q14_Q6_VS1
+Value='A  ';GAMBLE
+Value='B  ';NO GAMBLE
+
+[Record]
+Label=SECTION 15 PART 1
+Name=SECTION_15_PART1
+RecordTypeValue='S'
+RecordLen=34
+
+[Item]
+Label=CHOOSE EXPERIMENT
+Name=CHOOSE_EXPERIMENT
+Start=8
+Len=3
+DataType=Alpha
+
+[ValueSet]
+Label=CHOOSE EXPERIMENT
+Name=CHOOSE_EXPERIMENT_VS1
+Value='A  ';REGULATION
+Value='B  ';TECHNOLOGY
+
+[Item]
+Label=EXPERIMENT A1
+Name=EXPERIMENT_A1
+Start=11
+Len=3
+DataType=Alpha
+
+[ValueSet]
+Label=EXPERIMENT A1
+Name=EXPERIMENT_A1_VS1
+Value='A  ';Your monthly income is GHS2500; Average income of the community is GHS3000
+Value='B1 ';Your monthly income is GhS2,500 and Average community income GhS2,000
+
+[Item]
+Label=EXPERIMENT A2
+Name=EXPERIMENT_A2
+Start=14
+Len=3
+DataType=Alpha
+
+[ValueSet]
+Label=EXPERIMENT A2
+Name=EXPERIMENT_A2_VS1
+Value='A  ';Your monthly income is GHS2500; Average income of the community is GHS3000
+Value='B2 ';Your monthly income is GhS2,250 and Average community income GhS2,000
+
+[Item]
+Label=EXPERIMENT A3
+Name=EXPERIMENT_A3
+Start=17
+Len=3
+DataType=Alpha
+
+[ValueSet]
+Label=EXPERIMENT A3
+Name=EXPERIMENT_A3_VS1
+Value='A  ';Your monthly income is GHS2500; Average income of the community is GHS3000
+Value='B3 ';Your monthly income is GhS2,040 and Average community income GhS2,000
+
+[Item]
+Label=EXPERIMENT A4
+Name=EXPERIMENT_A4
+Start=20
+Len=3
+DataType=Alpha
+
+[ValueSet]
+Label=EXPERIMENT A4
+Name=EXPERIMENT_A4_VS1
+Value='A  ';Your monthly income is GHS2500; Average income of the community is GHS3000
+Value='B4 ';Your monthly income is GhS1,840 and Average community income GhS2,000
+
+[Item]
+Label=EXPERIMENT B1
+Name=EXPERIMENT_B1
+Start=23
+Len=3
+DataType=Alpha
+
+[ValueSet]
+Label=EXPERIMENT B1
+Name=EXPERIMENT_B1_VS1
+Value='A  '; Your monthly income is GHS2500; Average income of the community is GHS3000
+Value='B1 ';Your monthly income is GhS2,500 and Average community income GhS2,000
+
+[Item]
+Label=EXPERIMENT B2
+Name=EXPERIMENT_B2
+Start=26
+Len=3
+DataType=Alpha
+
+[ValueSet]
+Label=EXPERIMENT B2
+Name=EXPERIMENT_B2_VS1
+Value='A  ';Your monthly income is GHS2500; Average income of the community is GHS3000
+Value='B2 ';Your monthly income is GhS2,250 and Average community income GhS2,000
+
+[Item]
+Label=EXPERIMENT B3
+Name=EXPERIMENT_B3
+Start=29
+Len=3
+DataType=Alpha
+
+[ValueSet]
+Label=EXPERIMENT B3
+Name=EXPERIMENT_B3_VS1
+Value='A  ';Your monthly income is GHS2500; Average income of the community is GHS3000
+Value='B3 ';Your monthly income is GhS2,040 and Average community income GhS2,000
+
+[Item]
+Label=EXPERIMENT B4
+Name=EXPERIMENT_B4
+Start=32
+Len=3
+DataType=Alpha
+
+[ValueSet]
+Label=EXPERIMENT B4
+Name=EXPERIMENT_B4_VS1
+Value='A  ';Your monthly income is GHS2500; Average income of the community is GHS3000
+Value='B4 ';Your monthly income is GhS1,840 and Average community income GhS2,000
+
+[Record]
+Label=ENDING
+Name=ENDING
+RecordTypeValue='T'
+RecordLen=13
+
+[Item]
+Label=TIME
+Name=TIME
+Start=8
+Len=5
+DataType=Alpha
+
+[Item]
+Label=ATTITUDE
+Name=ATTITUDE
+Start=13
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=ATTITUDE
+Name=ATTITUDE_VS1
+Value='A';VERY INTERESTED AND ACTIVE
+Value='B';SOMEWHAT INTERESTED AND ACTIVE
+Value='C';NOT VERY INTERESTED AND ACTIVE
